@@ -2,7 +2,6 @@ let fs = require("fs");
 let filename = "password.txt";
 let Fetchdata = fs.readFileSync(process.cwd() + "/" + filename).toString();
 let array = fs.readFileSync("password.txt", "utf8").split("\n");
-
 array.map((item) => {
   let userID;
   const myArray = item.split(":");
