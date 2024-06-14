@@ -1,0 +1,33 @@
+ul {
+  display: flex;
+  justify-content: center;
+  column-gap: 1.5rem;
+  text-decoration: none;
+  cursor: pointer;
+  list-style-type: none;
+}
+ul li:hover {
+  background-color: rgba(36, 33, 33, 0.432);
+}
+ul li {
+  background-color: brown;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+.navtag {
+  color: white;
+  text-decoration: none;
+}
+
+.componantdata {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  margin-top: 3rem;
+  align-items: center;
+}
+
+.dopdowncutomcomponant{
+padding: 0.2rem 3.5rem;
+}
